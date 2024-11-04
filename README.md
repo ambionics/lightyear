@@ -10,6 +10,13 @@ get_image_size($_GET['image']);
 
 ## Setup
 
+The following dependencies are required to build the XML library (lxml).
+
+```bash
+sudo apt update
+sudo apt-get install -y libxml2-dev libxslt-dev
+```
+
 ```bash
 $ git clone https://github.com/ambionics/lightyear
 $ cd lightyear
